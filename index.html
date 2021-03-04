@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mastermind</title>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/normalize.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body onload="start()">
+  <div id="wrapper">
+    <h1>Mastermind</h1>
+  <div id="mastermind">
+    <div id="couleur">
+      <div class="rond red"></div>
+      <div class="rond blue"></div>
+      <div class="rond green"></div>
+      <div class="rond yellow"></div>
+      <div class="rond orange"></div>
+      <div class="rond violet"></div>
+    </div>
+    <div id="estimation">
+      <button id="resetGuesses">Reset</button>
+      <div class="ronds">
+        <div class="rond blanc"></div>
+        <div class="rond blanc"></div>
+        <div class="rond blanc"></div>
+        <div class="rond blanc"></div>
+      </div>
+      <button id="valider">Submit</button>
+    </div>
+    <div id="historique">
+    </div>
+    <div id="mystery">
+      <div class="ronds">
+        <div class="rond grey">?</div>
+        <div class="rond grey">?</div>
+        <div class="rond grey">?</div>
+        <div class="rond grey">?</div>
+      </div>
+      <div id="message">
+      </div>
+    </div>
+  </div>
+  <button id="resetAll">Re-start</button>
+<script src="assets/js/script.js"></script>
+  </div>
+</body>
+</html>
