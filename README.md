@@ -1,5 +1,5 @@
 MasterMind
-
+https://fredgaloppin.github.io/mastermind/
 Rules
 
     For normal mode, the solution = 4 different colours
