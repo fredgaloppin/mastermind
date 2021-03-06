@@ -35,11 +35,11 @@ h1{
     border-color: hsl(285, 9%, 23%);
     color: hsl(285, 9%, 23%);
 }
-#estimation,#couleur{
+#estimation,#colorDisplay{
     border-bottom: solid 1px #000;
     justify-content: space-around;
 }
-#mystery, #estimation, #couleur, #historique{
+#mystery, #estimation, #colorDisplay, #historique{
     display: flex;
     /* flex-direction: row; */
     padding: 2px 0;
@@ -48,9 +48,12 @@ h1{
     flex-direction: column;
 
 }
-#couleur{
+#colorDisplay{
     justify-content: space-evenly;
     padding: 2px 50px;
+}
+#colorDisplay .rond{
+    opacity: 0.6;
 }
 .histo{
     display: flex;
