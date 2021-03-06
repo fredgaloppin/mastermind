@@ -32,17 +32,24 @@ function start (){
     random();
 }
 // couleur
-let divColor = document.getElementById("couleur");
+let divColor = document.getElementById("colorDisplay");
 const color = divColor.getElementsByClassName("rond");
 let selectColor = "";
 for (let i=0; i< color.length;i++){
     color[i].addEventListener("click", function(){ 
         selectColor = (color[i].className);
         tempColor = i;
+        opacity(i);
         console.log(selectColor);
         let last = selectColor.split(/[\s,]+/).pop();
         elementToChange.style.cursor = "url('assets/"+last+".png'), auto";
     }); 
+}
+function opacity(selected) {
+    for (let index = 0; index < color.length; index++) {
+        color[index].style.opacity = 0.6;    
+    }
+    color[selected].style.opacity = 1;
 }
 // estimation
 let divEstimation = document.getElementById("estimation");
@@ -75,7 +82,6 @@ function check(){
             alert("unvalide! try again");
         } else {
             if (attempt<=11) {
-  
                 let divClassHisto = document.createElement("div");
                 divClassHisto.setAttribute("class", "histo ");
                 let divClassRonds = document.createElement("div");
