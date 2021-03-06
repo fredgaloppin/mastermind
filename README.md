@@ -11,7 +11,7 @@ Mission
         one for current responses
         one for the choice of colours (place 6 circles of different colours)
 
-    In JS: make sure that when you click on a color, it is placed in the div of the answers.
+    In JS: make sure that when you click on a color, the color is selected and can be placed in the div of the answers.
 
     Make sure that when the 4 colours are placed in the answer div, they move into the historical div.
 
@@ -29,4 +29,4 @@ Tips
 
     Make the black balls appear first, then the white balls.
     Using innerHTML and others
-    Use a "round" class and just modify the background-color (for the movements in the different div)
+    
