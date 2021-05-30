@@ -1,32 +1,18 @@
-MasterMind
-https://fredgaloppin.github.io/mastermind/
-Rules
+## MasterMind
 
-    For normal mode, the solution = 4 different colours
+[Game](https://fredgaloppin.github.io/mastermind/)
 
-Mission
 
-    Create 3 div in HTML (minimum)
-        one for response history
-        one for current responses
-        one for the choice of colours (place 6 circles of different colours)
 
-    In JS: make sure that when you click on a color, the color is selected and can be placed in the div of the answers.
+### Manual:
 
-    Make sure that when the 4 colours are placed in the answer div, they move into the historical div.
+-  Pick up the color of your choice   
+-  then Apply it on the white round of your choice    
+-  You can change the colored ones as much as you want until You Submit   
+-  You can also Reset -> all guesses round in white (blank)   
+-  You have 12 guesses to find the 4 randomed picked colors.    
+-  Each color well positioned will give you a black round and each color presented but not well positioned will give you a white round     
 
-    When the colors arrive in the history, on the right, black or white balls are displayed indicating :
-        they are well placed
-        they're right but not in the right place
 
-    The black and white balls must not be in the same order as the coloured balls (otherwise it's too easy)
-
-    Make a function that creates an automatic solution at the beginning of each game. (using random)
-
-    Make sure that when we make a mistake we can take the colours off the current answers.
-
-Tips
-
-    Make the black balls appear first, then the white balls.
-    Using innerHTML and others
+    
     
